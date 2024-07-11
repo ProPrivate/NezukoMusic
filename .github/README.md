@@ -4,7 +4,7 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ProPrivate&repo=MUSICBOT&theme=flag-india)
 
-[![GIF](https://github.com/ProPrivate/MUSICBOT/blob/main/ProPrivate.gif)](https://github.com/ProPrivate)
+[![GIF](https://github.com/ProPrivate/MUSICBOT/blob/main/AimmXD.gif)](https://github.com/ProPrivate)
    [![AimmX](https://github-stats-alpha.vercel.app/api?username=ProPrivate "AimmX")](https://github-stats-alpha.vercel.app/api?username=AimmX "AimmX")
 
 
