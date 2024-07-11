@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя AɪᴍX яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя PʀᴏBᴏᴛs яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,25 +32,13 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗡𝗘𝗭𝗨𝗞𝗢", url=f"https://t.me/NezukoProBot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/AimXSupport"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/AimmXD"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/ProBotGc"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ZeoXpro"),
           ],
                [
                 InlineKeyboardButton("𝗟𝗜𝗩𝗘 𝗖𝗖", url="https://t.me/AimXCC"),
 
-],
-[
-              InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/AimmXD/USERBOT"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/AimmXD/CHATBOT"),
-],
-[
-InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧", url=f"https://github.com/AimmXD/CHATBOT"),
-InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗕𝗢𝗧", url=f"https://github.com/AimmXD/STRINGBOT"),
-],
-[
-InlineKeyboardButton("Zᴇʀᴏ Tᴡᴏ", url=f"https://github.com/AimmXD/ZeroTwo"),
-
-        ]]
+]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -62,7 +50,7 @@ InlineKeyboardButton("Zᴇʀᴏ Tᴡᴏ", url=f"https://github.com/AimmXD/ZeroTw
  
    
 # --------------
-
+"""
 
 @app.on_message(filters.command("repo", prefixes="#"))
 @capture_err
@@ -78,12 +66,12 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/AimmX/MUSICBOT) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/AimXsupport)
+        text = f"[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/AimmX/MUSICBOT) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/ProBotGc)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
-{list_of_users}"""
+{list_of_users}"
         await app.send_message(message.chat.id, text=text, disable_web_page_preview=True)
     else:
         await app.send_message(message.chat.id, text="Failed to fetch contributors.")
 
-
+"""

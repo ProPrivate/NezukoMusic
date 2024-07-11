@@ -14,8 +14,8 @@ from AIMXMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="𓊈𒆜彡[𝐀𝐢𝐦𝐗 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ]彡𒆜𓊉",
-            url=f"https://t.me/AimXsupport",
+            text="𓊈[ PʀᴏBᴏᴛs ]𓊉",
+            url=f"https://t.me/ProBotts",
         ),
     ],
 ]

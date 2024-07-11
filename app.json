@@ -1,5 +1,5 @@
 {
-    "name": "AɪᴍX Mᴜsɪᴄ",
+    "name": "Pʀᴏ Mᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/0b520f40be4bbca3835e2.jpg",
     "keywords": [
@@ -34,13 +34,18 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "7184362713",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @SessionFatherRobot on Telegram.",
         "value": "",
         "required": true
+      },
+      "STRING_SESSION2": {
+        "description": "A Pyrogram v2 String Session For Assistant 2 (Optional)",
+        "value": "",
+        "required": false
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
@@ -54,7 +59,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1002100130095",
         "required": true
       }
     },
