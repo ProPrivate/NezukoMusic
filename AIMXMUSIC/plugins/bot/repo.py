@@ -36,14 +36,14 @@ async def start(_, msg):
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ZeoXpro"),
           ],
                [
-                InlineKeyboardButton("𝗟𝗜𝗩𝗘 𝗖𝗖", url="https://t.me/AimXCC"),
+                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘", url="https://t.me/ProBotts"),
 
 ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/0b520f40be4bbca3835e2.jpg",
+        photo="https://telegra.ph/file/1fc861a305faa9e71906b.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
