@@ -14,7 +14,7 @@
 GO TO [RELOAD.PY](https://github.com/ProPrivate/MUSICBOT/blob/Master/AIMXMUSIC/plugins/tools/reload.py) THEN CHANGE MY ID NUMBER 
 
 <p align="center">
-  <img width="500" src="https://telegra.ph/file/0b520f40be4bbca3835e2.jpg">
+  <img width="500" src="https://telegra.ph/file/93fe8699ccadb924effad.jpg">
 </p>
 
 <p align="center">
