@@ -4,6 +4,7 @@ SpeechRecognition
 pornhub-api==0.3.0
 aiohttp 
 asyncio 
+youtube_dl==2021.12.17
 beautifulsoup4
 daxxhub
 deepai
@@ -40,7 +41,7 @@ spotipy
 tgcrypto
 telegraph
 unidecode
-yt-dlp
+yt-dlp==2024.7.9
 youtube-search
 youtube-search-python
 gtts
@@ -60,4 +61,3 @@ instaloader
 MukeshAPI
 pyttsx3
 pytube
-youtube_dl==2021.12.17
